@@ -60,9 +60,11 @@ app.put('/placement-diary/:id', express.json(), async (req, res) => {
 
 async function startServer() {
   await database.init();
-  app.listen(8080);
+  //app.listen(8080);
+  app.listen(process.env.PORT || 5000);
   console.log('Serving website on: http://localhost:8080');
   console.log('Press Ctrl+C to stop');
 }
+
 
 startServer();
