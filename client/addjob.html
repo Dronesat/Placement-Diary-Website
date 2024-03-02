@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset=utf-8>
+<script defer src="addjob.js"></script>
+<title>Add Job</title>
+
+<style>
+  .input-field {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .input-field textarea {
+    width: 100%;
+    resize: vertical;
+  }
+</style>
+
+<h1>Add Job</h1>
+
+<label for="date">Date:</label>
+<input id="date" type="date" class="input-field"><br>
+
+<label for="work">Work carried out:</label>
+<textarea id="work" class="input-field" rows="10" cols="50"></textarea><br>
+
+<label for="exp">Knowledge/Experience gained or applied:</label>
+<textarea id="exp" class="input-field" rows="10" cols="50"></textarea><br>
+
+<aside id="compList">
+  <p>Selected Competencies: None (Make sure to Refresh after editing competencies)</p>
+</aside>
+
+<button id="competenceButton">Edit Competencies</button>
+<button id="refreshButton">Refresh</button>
+<button id="saveButton">Save Job</button>
+<button id="backButton">Go Back</button>

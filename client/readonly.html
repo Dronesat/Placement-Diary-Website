@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Placement Diary</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Placement Diary Read Only Mode</h1>
+
+  <aside>
+    <button id="backButton">Back to Main page</button>
+    <button id="printButton">Print</button> <!-- New button for printing -->
+  </aside>
+  
+  <table id="diaryTable">
+    <tr>
+      <th>Date</th>
+      <th>Work carried out</th>
+      <th>Knowledge/Experience gained or applied</th>
+      <th>Competency</th>
+    </tr>
+  </table>
+
+  <aside id="compId">
+    <p>Competency</p>
+  </aside>
+  <aside id="compStandard">
+    <p>Competence Standard...</p>
+  </aside>
+  <aside id="compExamples">
+    <p>Competence Example...</p>
+  </aside>
+
+  <script defer src="readonly.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "web_prog",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "svr.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules svr.mjs"
+  },
+  "author": "Hieu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite": "^4.2.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0",
+    "uuid-random": "^1.3.2"
+  }
+}

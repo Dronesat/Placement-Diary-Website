@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Edit Job</title>
+  <style>
+    .input-field {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .input-field textarea {
+      width: 100%;
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+  <h1>Edit Job</h1>
+
+  <label for="dateInput">Date:</label>
+  <input type="text" id="dateInput" name="dateInput" required><br>
+
+  <label for="workInput">Standard:</label>
+  <textarea id="workInput" name="workInput" rows="10" cols="50" required></textarea><br>
+
+  <label for="exampleInput">Example:</label>
+  <textarea id="exampleInput" name="exampleInput" rows="10" cols="50" required></textarea><br>
+
+  <label for="competenceInput">Competence:</label>
+  <input type="text" id="competenceInput" name="competenceInput" required><br>
+
+  <button type="button" id="saveButton">Save and Back</button>
+
+  <script defer src="edit.js"></script>
+</body>
+</html>
