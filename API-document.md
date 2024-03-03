@@ -64,3 +64,11 @@ CLIENT-SIDE API DOCUMENTATION
 		Update the displayed competency list
 	- displaySavedCompList()
 		Display the saved competency list
+
+- edit.js
+	- savePlacementDiary()
+		Update an existing placement diary by sending the edited job data to database.
+	- loadPlacementDiary()
+		Load a specific placement diary from database and populate its data to textboxes
+	- populateForm(job)
+		Populate textboxes with the data from the job object
