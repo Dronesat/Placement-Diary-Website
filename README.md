@@ -4,6 +4,8 @@
 
 A simple diary website where you can record daily tasks during your placement year! You can try out the [website](https://placement-diary.cyclic.app/)
 
+Features: Add, Delete, Modify Tasks and Competences
+
 ## Technologies
 1. Front-end: HTML, CSS, Javascript
 2. Back-end:
